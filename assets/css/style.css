@@ -1,0 +1,52 @@
+.project-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.project-left {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.project-right {
+    flex: 1;
+}
+
+.project-left .image img {
+    width: 300%;
+    display: block;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.project-buttons a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project-buttons a:hover {
+    transform: translateY(-3px);
+}
+
+@media screen and (max-width: 736px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-left {
+        width: 100%;
+    }
+
+    .project-right {
+        width: 100%;
+    }
+}
