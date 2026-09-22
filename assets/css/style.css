@@ -1,0 +1,24 @@
+.project-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.project-left {
+    flex: 1;
+}
+
+.project-right {
+    flex: 0 0 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-right a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}
