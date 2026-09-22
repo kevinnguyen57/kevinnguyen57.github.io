@@ -8,6 +8,13 @@
     flex: 1;
 }
 
+.project-left img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
 .project-right {
     flex: 0 0 180px;
     display: flex;
