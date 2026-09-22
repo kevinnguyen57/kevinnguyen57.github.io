@@ -29,3 +29,22 @@
     text-decoration: none;
     border-radius: 6px;
 }
+
+/* mobile */
+@media screen and (max-width: 600px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-left {
+        width: 100%;
+    }
+
+    .project-left img {
+        margin: 0 auto;
+    }
+
+    .project-right {
+        width: 100%;
+    }
+}
