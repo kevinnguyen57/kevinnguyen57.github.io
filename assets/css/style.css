@@ -8,7 +8,29 @@
 }
 
 .project-left .image img {
-    width:450px !important;
-    max-width: none !important;
-    height: auto;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+/* Links */
+.project-right {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-right a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 6px;
+    background-color: #50e4bc;
+    color: white;
+    padding-bottom: ;
+}
+
+.project-right a:hover {
+    opacity: 0.8;
 }
